@@ -2537,9 +2537,9 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="NAME" x="64.5414" y="135.509" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="69.342" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="144.78" y="116.84" rot="R180">
-<attribute name="NAME" x="146.431" y="115.3414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="147.32" y="120.142" size="1.778" layer="96" rot="R180"/>
+<instance part="R3" gate="G$1" x="139.7" y="101.6" rot="R270">
+<attribute name="NAME" x="141.1986" y="103.251" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="136.398" y="104.14" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R4" gate="G$1" x="172.72" y="109.22" rot="R180">
 <attribute name="NAME" x="174.371" y="107.7214" size="1.778" layer="95" rot="R180"/>
@@ -2653,9 +2653,9 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="NAME" x="55.753" y="143.002" size="1.778" layer="95"/>
 <attribute name="VALUE" x="55.753" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="1" x="137.16" y="109.22" rot="R90">
-<attribute name="NAME" x="136.525" y="110.236" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="141.351" y="110.236" size="1.778" layer="96" rot="R90"/>
+<instance part="C2" gate="1" x="121.92" y="109.22" rot="R90">
+<attribute name="NAME" x="121.285" y="110.236" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="126.111" y="110.236" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C3" gate="G$1" x="27.94" y="88.9" rot="R270">
 <attribute name="NAME" x="27.813" y="84.582" size="1.778" layer="95"/>
@@ -2836,8 +2836,8 @@ DIN A4, landscape with extra doc field</description>
 <instance part="GND13" gate="GND" x="76.2" y="132.08">
 <attribute name="VALUE" x="74.295" y="128.905" size="1.778" layer="96"/>
 </instance>
-<instance part="GND14" gate="GND" x="132.08" y="114.3">
-<attribute name="VALUE" x="130.175" y="111.125" size="1.778" layer="96"/>
+<instance part="GND14" gate="GND" x="139.7" y="93.98">
+<attribute name="VALUE" x="137.795" y="90.805" size="1.778" layer="96"/>
 </instance>
 <instance part="V4" gate="G$1" x="149.86" y="68.58" rot="R180">
 <attribute name="VALUE" x="151.765" y="65.405" size="1.778" layer="96" rot="R180"/>
@@ -2956,7 +2956,6 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="GND" pin="GND"/>
-<wire x1="139.7" y1="116.84" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C16" gate="1" pin="-"/>
@@ -3085,7 +3084,7 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="C2" gate="1" pin="+"/>
 <wire x1="83.82" y1="144.78" x2="83.82" y2="127" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="127" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="109.22" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="-IN"/>
 <wire x1="68.58" y1="142.24" x2="68.58" y2="127" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
@@ -3308,11 +3307,11 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="C2" gate="1" pin="-"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="127" y1="109.22" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="116.84" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
-<junction x="149.86" y="109.22"/>
+<wire x1="139.7" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="106.68" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
+<junction x="139.7" y="109.22"/>
 </segment>
 </net>
 <net name="-9V" class="0">

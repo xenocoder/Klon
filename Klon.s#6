@@ -3149,6 +3149,9 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="C16" gate="1" pin="+"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="106.68" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
+<junction x="53.34" y="106.68"/>
 </segment>
 </net>
 <net name="N$16" class="0">

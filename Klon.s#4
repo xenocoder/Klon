@@ -2516,7 +2516,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="V7" library="mb_supply" deviceset="+18V" device=""/>
 <part name="VB5" library="mb_supply" deviceset="VB" device=""/>
 <part name="+9V2" library="mb_supply" deviceset="+9V(T)" device=""/>
-<part name="PAD1" library="mb_supply" deviceset="PAD" device=""/>
+<part name="LED" library="mb_supply" deviceset="PAD" device=""/>
 <part name="OUTKLON" library="mb_supply" deviceset="OUT(T)" device=""/>
 <part name="OUTBUFF" library="mb_supply" deviceset="OUT(T)" device=""/>
 <part name="IN1" library="mb_supply" deviceset="IN(T)" device=""/>
@@ -2858,7 +2858,7 @@ DIN A4, landscape with extra doc field</description>
 <instance part="+9V2" gate="+9V" x="180.34" y="152.4" rot="R270">
 <attribute name="VALUE" x="183.515" y="154.305" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="PAD1" gate="G$1" x="45.72" y="154.94">
+<instance part="LED" gate="G$1" x="45.72" y="154.94">
 <attribute name="NAME" x="45.72" y="157.48" size="1.778" layer="95"/>
 </instance>
 <instance part="OUTKLON" gate="G$1" x="241.3" y="76.2">
@@ -3445,7 +3445,7 @@ DIN A4, landscape with extra doc field</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="PAD1" gate="G$1" pin="PAD"/>
+<pinref part="LED" gate="G$1" pin="PAD"/>
 <wire x1="38.1" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>

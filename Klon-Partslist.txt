@@ -1,0 +1,82 @@
+Partlist
+
+Exported from Klon.sch at 12/17/18 8:35 PM
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device       Package     Library         Sheet
+
++9V      +9V(T)         +9V(T)       SQUARE      mb_supply       1
++9V1     +9V(T)         +9V(T)       SQUARE      mb_supply       1
+C1       100nF          072X0252     072X025     mb_caps-box     1
+C2       4.7uF          0501         050_020_1   mb_caps-electro 1
+C3       100nF          072X0252     072X025     mb_caps-box     1
+C4       68nF           072X0252     072X025     mb_caps-box     1
+C5       68nF           072X0252     072X025     mb_caps-box     1
+C6       390nF          072X0252     072X025     mb_caps-box     1
+C7       82nF           072X0252     072X025     mb_caps-box     1
+C8       390pF          050X030_0251 050X030_025 mb_caps-ceramic 1
+C9       1uF            0501         050_020_1   mb_caps-electro 1
+C10      1uF            0501         050_020_1   mb_caps-electro 1
+C11      2.2nF          072X0252     072X025     mb_caps-box     1
+C12      27nF           072X0252     072X025     mb_caps-box     1
+C13      820pF          050X030_0251 050X030_025 mb_caps-ceramic 1
+C14      3.9uF          072X0252     072X025     mb_caps-box     1
+C15      4.7uF          0501         050_020_1   mb_caps-electro 1
+C16      1uF            0501         050_020_1   mb_caps-electro 1
+C17      47uF           0631         063_025     mb_caps-electro 1
+C18      47uF           0631         063_025     mb_caps-electro 1
+C19      1uF            0501         050_020_1   mb_caps-electro 1
+C20      1uF            0501         050_020_1   mb_caps-electro 1
+C21      1uF            0501         050_020_1   mb_caps-electro 1
+C22      1uF            0501         050_020_1   mb_caps-electro 1
+D1       LED            LED3MM       LED3MM      mb_diodes       1
+D2       1N34A          1N9ZENER     DO35-3      mb_diodes       1
+D3       1N34A          1N9ZENER     DO35-3      mb_diodes       1
+D4       4001           1N400X.3     DO41-3      mb_diodes       1
+D5       4001           1N400X.3     DO41-3      mb_diodes       1
+G        GND(T)         GND(T)       SQUARE      mb_supply       1
+G1       GND(T)         GND(T)       SQUARE      mb_supply       1
+GAIN     B100k          ALPHA16MM    ALPHA16MM   Pots - custom   1
+IC1      TL072P         TL072P       DIL08       mb_ics          1
+IC2      TL072P         TL072P       DIL08       mb_ics          1
+IC3      MAX1044        MAX1044      DIL08       mb_ics          1
+IN       IN(T)          IN(T)        SQUARE      mb_supply       1
+LED                     PAD          SQUARE      mb_supply       1
+OUTBUFF                 PAD          SQUARE      mb_supply       1
+OUTKLON  OUT(T)         OUT(T)       SQUARE      mb_supply       1
+OUTPUT   B10k           POT16MM      16MM        mb_pots         1
+R1       10k            6MM.3        R0207/3     mb_resistors    1
+R2       1M             6MM.3        R0207/3     mb_resistors    1
+R3       100k           6MM.3        R0207/3     mb_resistors    1
+R4       560R           6MM.3        R0207/3     mb_resistors    1
+R5       5k1            6MM.3        R0207/3     mb_resistors    1
+R6       10k            6MM.3        R0207/3     mb_resistors    1
+R7       1k5            6MM.3        R0207/3     mb_resistors    1
+R8       1k5            6MM.3        R0207/3     mb_resistors    1
+R9       1k             6MM.3        R0207/3     mb_resistors    1
+R10      2k             6MM.3        R0207/3     mb_resistors    1
+R11      15k            6MM.3        R0207/3     mb_resistors    1
+R12      422k           6MM.3        R0207/3     mb_resistors    1
+R13      1k             6MM.3        R0207/3     mb_resistors    1
+R14      1k             6MM.3        R0207/3     mb_resistors    1
+R15      22k            6MM.3        R0207/3     mb_resistors    1
+R16      47k            6MM.3        R0207/3     mb_resistors    1
+R17      27k            6MM.3        R0207/3     mb_resistors    1
+R18      12k            6MM.3        R0207/3     mb_resistors    1
+R19      15k            6MM.3        R0207/3     mb_resistors    1
+R20      390k           6MM.3        R0207/3     mb_resistors    1
+R21      1k8            6MM.3        R0207/3     mb_resistors    1
+R22      100k           6MM.3        R0207/3     mb_resistors    1
+R23      4k7            6MM.3        R0207/3     mb_resistors    1
+R24      100k           6MM.3        R0207/3     mb_resistors    1
+R25      560R           6MM.3        R0207/3     mb_resistors    1
+R26      68k            6MM.3        R0207/3     mb_resistors    1
+R27      68k            6MM.3        R0207/3     mb_resistors    1
+R28      100k           6MM.3        R0207/3     mb_resistors    1
+R29      27k            6MM.3        R0207/3     mb_resistors    1
+R30      27k            6MM.3        R0207/3     mb_resistors    1
+TREBLE   B10k           POT16MM      16MM        mb_pots         1
+Z1       4742           1N47XX3      DO41-3      mb_diodes       1
